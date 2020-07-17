@@ -10,5 +10,6 @@ public class Pelicula {
     String clasificacion; // char
     String formato;
     String[] ListActores;
+    String sinopsys;
 
 }

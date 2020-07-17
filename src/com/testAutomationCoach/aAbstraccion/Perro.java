@@ -11,4 +11,5 @@ public class Perro {
     public void ladrar() {}
     public void correr() {}
     public void comer() {}
+    public void juguetear() {}
 }
