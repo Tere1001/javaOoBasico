@@ -1,14 +1,23 @@
 package com.testAutomationCoach.aAbstraccion;
 
 public class Cancion {
-    //atributos:
+    //atributos / variables de instancia:
      String titulo;
-     String[] artista;
+     String artista;
      double duracion; //String
      String letra;
      int anioLanzamiento;
      String compositor;
 
+ public void reproducir(){
+
+ }
+ public void editar(){
+
+ }
+ public void grabar(){
+
+ }
 }
 
 

@@ -9,4 +9,11 @@ public class CarritoDeCompras {
     double subTotal;
     double impuestos;
     double total;
+
+    public void agregarCarritodeCompras(Articulo item){
+
+    }
+    public void mostrarArticuloCarrito(){
+
+    }
 }

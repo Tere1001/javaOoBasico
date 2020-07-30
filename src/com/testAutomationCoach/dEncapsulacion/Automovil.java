@@ -11,6 +11,10 @@ public class Automovil {
 	private String tipoDeTransmision;
 	private int numDePuertas;
 	private int numDeLlantas;
+	private double litrosGasolina;
+	private int revoluciones;
+	private double temperatura;
+
 	
 	Automovil() {
 		marca = "Ford";
@@ -19,6 +23,9 @@ public class Automovil {
 		tipoDeTransmision = "Manual";
 		numDePuertas = 2;
 		numDeLlantas = 4;
+		litrosGasolina= 20;
+		revoluciones= 0;
+		temperatura= 10;
 	}
 	
 	Automovil(String marca, double maximaVel, String tipoTransmision, int numPuertas, int numLlantas) {
